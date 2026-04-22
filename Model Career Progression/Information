@@ -1,0 +1,17 @@
+CM1 Exam Problem: Markov Chains
+An analyst uses the following three-state model to model career progression at a company.
+You will find an Excel file, an R file, and the LaTeX file showing the solution. The R file provides a visual explanation of why those arguments are included in Part II.
+
+The analyst makes the following assumptions:
+• The salary of a trainee is $20,000 p.a. payable continuously.
+• The salary of a manager is $35,000 p.a. payable continuously.
+• Aone-off bonus of $15,000 is payable immediately on promotion to manager.
+• The maximum term of employment at the company is 30 years.
+• The force of interest is 5% p.a.
+Denote tpijx as the probability that an employee in state i at age x is in state j at age x + t.
+(i) Write down an expression in integral form, using the probabilities and forces of transition,
+for the expected present value of the future salary payable to an employee aged 35 exact who
+has just joined the company as a trainee.
+(ii) Explain how the expected value expressed in part (i) would change if, for all x:
+(a) σx increases.
+(b) µx increases.
